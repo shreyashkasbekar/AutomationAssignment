@@ -13,9 +13,12 @@
 ## Parallel Execution
 Implemented using JUnit 5 parallel execution.
 
-## Run via IntelliJ IDEA
+## How to Run
 
-1. Open project as Maven project
-2. Wait for dependency sync
-3. Run AmazonParallelTest.java
+### Option 1: IntelliJ IDEA
+Open as Maven project and run AmazonParallelTest.java
+
+### Option 2: Command Line
+mvn test
+(Requires Maven installed and configured in PATH)
 
